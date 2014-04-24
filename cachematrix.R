@@ -1,11 +1,11 @@
-## The purpose of these two functions together is to create a way to store 
+## The purpose of these two functions below is to create a way to store 
 ## or cache the inverse of a matrix produced by the solve() function. 
 
 
 ## The function makeCacheMatrix (below) takes a matrix as an argument and 
-## returns a list with four functions. This list of four functions serve 
-## to cache the matrix the makeCacheMatrix function takes as an argument 
-## in an object in an environment outside that defined by the function.
+## returns a list with four functions. This list serves to cache or store
+## the matrix the makeCacheMatrix function takes as an argument in an 
+## object in an environment outside that defined by the function.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
